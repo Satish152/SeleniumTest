@@ -9,6 +9,7 @@ public class LoadURL {
 		// TODO Auto-generated method stub
         System.setProperty("webdriver.chrome.driver","H:\\files\\chromedriver.exe");
         WebDriver driver=new ChromeDriver();
+        driver.get("https://www.google.com");
 	}
 
 }

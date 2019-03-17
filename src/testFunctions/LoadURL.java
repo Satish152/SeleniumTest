@@ -10,6 +10,8 @@ public class LoadURL {
         System.setProperty("webdriver.chrome.driver","H:\\files\\chromedriver.exe");
         WebDriver driver=new ChromeDriver();
         driver.get("https://www.google.com");
+        String url=driver.getCurrentUrl();
+        System.out.println(url);
 	}
 
 }

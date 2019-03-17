@@ -12,6 +12,8 @@ public class LoadURL {
         driver.get("https://www.google.com");
         String url=driver.getCurrentUrl();
         System.out.println(url);
+        driver.getTitle();
+
 	}
 
 }
